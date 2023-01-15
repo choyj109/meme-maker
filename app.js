@@ -119,6 +119,7 @@ function onDestroyClick() {
 function onEraserClick() {
   ctx.strokeStyle = "white";
   isFilling = false;
+  isDrawing = false;
   modeBtn.innerText = "Fill";
 }
 
