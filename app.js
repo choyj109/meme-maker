@@ -120,7 +120,7 @@ function onEraserClick() {
   ctx.strokeStyle = "white";
   isFilling = false;
   isDrawing = false;
-  modeBtn.innerText = "Fill";
+  modeBtn.innerText = "💧Fill";
 }
 
 function onFileChange(event) {
